@@ -10,10 +10,13 @@ A simple bacterial‑genomics pipeline demonstrating both sequential and paralle
 ![Workflow DAG](workflow_dag.png)
 
 ## Requirements
-- **Nextflow** v24.10.5  
+- **Nextflow** v24.10.5  
 - **Conda** (Miniforge/Mambaforge)  
-- **Java** JRE 11+ (bundled with Nextflow)  
-- **Graphviz** (for DAG image)  
+- **Java JRE** 11+ (bundled with Nextflow)  
+- **Graphviz** (`dot` command)  
+- **OS**: macOS Monterey or later  
+- **Architecture**: Apple Silicon (arm64, M2) *and* tested under Rosetta2 emulation (x86_64)
+
 
 ## Installation
 
