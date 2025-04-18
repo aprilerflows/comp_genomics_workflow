@@ -7,7 +7,7 @@ A simple bacterial‑genomics pipeline demonstrating both sequential and paralle
 3. **Compute read metrics** with **seqkit** (runs in parallel with SPAdes)
 
 ## Workflow 
-![Workflow DAG](docs/workflow_dag.png)
+![Workflow DAG](workflow_dag.png)
 
 ## Requirements
 - **Nextflow** v24.10.5  
